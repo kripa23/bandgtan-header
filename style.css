@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.header{
+        height: 100vh;
+        width: 100vw;
+        background: url('https://media.gettyimages.com/photos/performs-onstage-during-the-2019-billboard-music-awards-at-mgm-grand-picture-id1140669624?s=2048x2048');
+        background-repeat: no-repeat;
+        background-size:cover;
+        filter: brightness(0.5);
+}
+.header-nav{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+    
+#nav-menu {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #000000;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#nav-menu li {
+  display: inline-block;
+  width: 16vw; 
+  margin-right: auto; 
+}
+
+#nav-menu a {
+  display: block; 
+  text-decoration: none; 
+  height: 100%; 
+  line-height: 100%; 
+  color: #fff;
+}
+.headtext{
+    position:relative;
+    z-index: 10;
+}
+h1 {
+	font-weight: bolder;
+	line-height: 1em;
+}
+small {
+	font-weight: lighter;
+	font-size: 25px;
+	line-height: -1em;
+}
+h1 {font-size: 4em}
